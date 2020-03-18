@@ -1,0 +1,32 @@
+{
+  "name": "shaunchow.github.io",
+  "version": "1.0.0",
+  "description": "Shaun's Home Page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to master\" && gh-pages -d out && git checkout master -f && git pull && git merge origin/gh-pages --allow-unrelated-histories -m \"Deploy Next.js to master\" && git push && git checkout develop -f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaunChow/shaunchow.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaunChow/shaunchow.github.io/issues"
+  },
+  "homepage": "https://github.com/ShaunChow/shaunchow.github.io#readme",
+  "dependencies": {
+    "next": "^9.3.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-define": "^2.0.0",
+    "gh-pages": "^2.2.0"
+  }
+}
