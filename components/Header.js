@@ -1,7 +1,7 @@
 
 import Head from 'next/head'
 
-export default ({ title = 'This is Shaun Chow' }) => (
+export default ({ title = 'Shaun Chow' }) => (
   <div>
     <Head>
       <title>{title}</title>
