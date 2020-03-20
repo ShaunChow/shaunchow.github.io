@@ -14,9 +14,9 @@ export default () => (
     </div>
 
     <nav className="sidebar-nav">
-      <a class="sidebar-nav-item active" href="/">Home</a>
-      <a class="sidebar-nav-item active" href="/about">About</a>
-      <a class="sidebar-nav-item" href="https://github.com/ShaunChow">GitHub project</a>
+      <a className="sidebar-nav-item active" href="/">Home</a>
+      <a className="sidebar-nav-item active" href="/about">About</a>
+      <a className="sidebar-nav-item" href="https://github.com/ShaunChow">GitHub project</a>
       <span className="sidebar-nav-item">Currently v0.0.0</span>
     </nav>
 

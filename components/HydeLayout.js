@@ -6,7 +6,7 @@ export default ({ children, title }) => (
     <Header title={title} />
     <body>
       <Sidebar />
-      <div class="content container">
+      <div className="content container">
         {children}
       </div>
     </body>
