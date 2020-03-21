@@ -6,9 +6,7 @@ export default () => (
   <div className="container sidebar-sticky">
     <div className="sidebar-about">
       <h1>
-        <a href="/">
-          Shaun
-        </a>
+        <a href="/">Shaun</a>
       </h1>
       <p className="lead">This is Blog For Personal</p>
     </div>
