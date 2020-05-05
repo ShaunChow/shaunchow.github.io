@@ -20,22 +20,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
   var _ref$title = _ref.title,
       title = _ref$title === void 0 ? 'Shaun Chow' : _ref$title;
-  return __jsx("div", {
+  return __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     },
     __self: this
   }, title), __jsx("link", {
@@ -43,7 +37,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     rel: "profile",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 7
     },
     __self: this
   }), __jsx("meta", {
@@ -51,7 +45,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     content: "IE=edge",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
   }), __jsx("meta", {
@@ -59,7 +53,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     content: "text/html; charset=utf-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }), __jsx("meta", {
@@ -67,12 +61,20 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     content: "initial-scale=1.0, width=device-width, maximum-scale=1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     },
     __self: this
-  }), __jsx("link", {
-    rel: "stylesheet",
-    href: "/static/css/poole.css",
+  }), __jsx("meta", {
+    name: "keywords",
+    content: "Java,kubernetes",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "description",
+    content: "7 years experience",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -80,15 +82,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: this
   }), __jsx("link", {
     rel: "stylesheet",
-    href: "/static/css/syntax.css",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }), __jsx("link", {
-    rel: "stylesheet",
-    href: "/static/css/hyde.css",
+    href: "/static/css/poole.css",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -96,10 +90,26 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: this
   }), __jsx("link", {
     rel: "stylesheet",
-    href: "/static/css/fonts.css",
+    href: "/static/css/syntax.css",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
+    },
+    __self: this
+  }), __jsx("link", {
+    rel: "stylesheet",
+    href: "/static/css/hyde.css",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), __jsx("link", {
+    rel: "stylesheet",
+    href: "/static/css/fonts.css",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
     },
     __self: this
   }), __jsx("link", {
@@ -108,7 +118,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     href: "/static/favicon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
     },
     __self: this
   }), __jsx("link", {
@@ -116,7 +126,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     href: "/static/favicon.ico",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 21
     },
     __self: this
   }), __jsx("link", {
@@ -126,10 +136,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     href: "/atom.xml",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 23
     },
     __self: this
-  })));
+  }));
 });
 
 /***/ }),
@@ -168,26 +178,20 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 6
     },
     __self: this
-  }), __jsx("body", {
+  }), __jsx(_Sidebar__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, __jsx(_Sidebar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), __jsx("div", {
+    className: "content container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }), __jsx("div", {
-    "class": "content container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, children)));
+  }, children));
 });
 
 /***/ }),
@@ -245,51 +249,51 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 11
     },
     __self: this
   }, "This is Blog For Personal")), __jsx("nav", {
     className: "sidebar-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 14
     },
     __self: this
   }, __jsx("a", {
-    "class": "sidebar-nav-item active",
+    className: "sidebar-nav-item active",
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 15
     },
     __self: this
   }, "Home"), __jsx("a", {
-    "class": "sidebar-nav-item active",
+    className: "sidebar-nav-item active",
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 16
     },
     __self: this
   }, "About"), __jsx("a", {
-    "class": "sidebar-nav-item",
+    className: "sidebar-nav-item",
     href: "https://github.com/ShaunChow",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 17
     },
     __self: this
   }, "GitHub project"), __jsx("span", {
     className: "sidebar-nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 18
     },
     __self: this
   }, "Currently v0.0.0")), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 21
     },
     __self: this
   }, "\xA9 2020. All rights reserved.")));
