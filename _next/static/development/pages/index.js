@@ -283,17 +283,25 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 17
     },
     __self: this
-  }, "GitHub project"), __jsx("span", {
-    className: "sidebar-nav-item",
+  }, "GitHub project"), __jsx("a", {
+    className: "sidebar-nav-item active",
+    href: "/202008/03",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
+  }, "2020.08"), __jsx("span", {
+    className: "sidebar-nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
   }, "Currently v0.0.0")), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }, "\xA9 2020. All rights reserved.")));
@@ -11357,20 +11365,20 @@ var _jsxFileName = "/Users/shaunchow/WorkSpaces/shaunchow.github.io/pages/index.
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-var input = '## 赠药山高僧惟俨\n\n炼得身形似鹤形，千株松下两函经。\n\n我来问道无余说，云在青天水在瓶。';
+var input = '## 赠药山高僧惟俨\n\n' + '炼得身形似鹤形，千株松下两函经。\n\n' + '我来问道无余说，云在青天水在瓶。';
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return __jsx(_components_HydeLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: "Shaun Chow",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: this
   }, __jsx(react_markdown__WEBPACK_IMPORTED_MODULE_2___default.a, {
     source: input,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: this
   }));
